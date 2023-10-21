@@ -1,0 +1,61 @@
+:root {
+  background-color: #F5F5F4;
+  font-family: Nitti Grotesk,Helvetica Neue,Arial,sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.quiz {
+  border: thin;
+  display: flex;
+  align-items: center;
+  animation: slide .8s;
+  flex-flow: column;
+  background-color: #0079C0;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: white;
+}
+
+.question-count {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.question-text {
+  padding: 1em;
+  font-weight: bold;
+}
+
+.answer-section{
+  display: flex;
+  align-items: center;
+} 
+
+.score-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+
+/* Color Palette*/
+/* .linkTxt, .linkTxt2, .donate, .signup {
+  background-color: #FEC14F;
+  font-weight: bold;
+  cursor: pointer;
+
+  .changeform {
+    background-color: rgb(245, 136, 50);
+}
+} */
